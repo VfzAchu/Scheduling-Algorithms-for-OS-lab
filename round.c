@@ -11,11 +11,11 @@ struct done{
 }d[20];
 void enqueue(int j)
 {
-    if (rear == -1) 
-        front = rear = 0;
+    if(rear==-1) 
+        front=rear=0;
     else
         rear++;
-    q[rear] = j;
+    q[rear]=j;
 }
 int dequeue()
 {

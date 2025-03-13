@@ -11,7 +11,7 @@ struct done
     char name[10];
     int st,ct;
 }d[20];
-int main()
+void main()
 {
     int n,min,f,num=0,idle,ls;
     float totalwt=0,totaltt=0;
@@ -95,7 +95,6 @@ int main()
         	printf("|%s", d[i].name);
         	for (int z = 1; z <=a; z++) 
             		printf(" ");
-            
     	}
     	printf("|\n");
 	for (int i = 0; i < num; i++) 
